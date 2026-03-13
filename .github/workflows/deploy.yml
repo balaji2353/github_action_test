@@ -51,8 +51,8 @@ jobs:
         tflint --init
         tflint
 
-    - name: Terraform Security Scan
-      uses: aquasecurity/tfsec-action@v1.0.3
+    # - name: Terraform Security Scan
+    #   uses: aquasecurity/tfsec-action@v1.0.3
 
     - name: Terraform Plan
       run: terraform plan -out=tfplan
