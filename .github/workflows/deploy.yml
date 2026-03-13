@@ -11,7 +11,7 @@ on:
 
 jobs:
   terraform:
-    name: deploy
+    name: deploy a EC2
     runs-on: ubuntu-latest    
 
     env:  
