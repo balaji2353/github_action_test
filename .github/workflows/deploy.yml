@@ -12,7 +12,7 @@ on:
 jobs:
   terraform:
     name: deploy
-    runs-on: ubntu-latest    
+    runs-on: ubuntu-latest    
 
     env:  
       AWS_REGION : us-west-2
